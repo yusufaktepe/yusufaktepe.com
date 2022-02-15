@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:yusuf@yusufaktepe.com
+Encryption: https://yusufaktepe.com/pgp_key.asc
+Preferred-Languages: en, tr
+Canonical: https://yusufaktepe.com/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDlIC35xiEBTrnokFSao8q6NHh2oFAmBH+psACgkQSao8q6NH
+h2rAZxAAk2K2QdVu0e/VS2gtumaFwm1Ax89Ny7BgWOMrX0hfGVjy5OZizVfGRAPD
+9Bs61s/Q97+ySKxHn7+lyzH3LfwQ3ug3j1lnFH5sxIqmyC8v9z/sufng2wcvD5uA
+NOwlM/p/YS3Bj5F/qUQfJ7iMAzDX2JdV3P3IAnXsOTkm725yF670rV7g09FJuSAz
+KeR0Opg4MJO60q+ozrbdyJSoRQojQQNNYej/O6obf2Oo74V1f9p/5QL4r/fTAxHc
+sVxCqJKZyX7rOswzlWmsTchZE33W7txCDJcDMz9VV+8L++he1nSFGiTazndEioRW
+RnQrDO2t7bW8wNk7NrI/W9W9vBAg1+D8ItHl3W5va5rr02oWNPEKycfJk3aH2DCx
+G4xfpDRwJOM+YNHE9Ufo7oc/OHE+4CKrtCHwwv1oTjJJ85GubKBYUfYOIE441eGb
+i35q0Vv1jU2Gk45W/YqYoEykmR6BLaTqNxeIjUpaeGc2HQiqX1avSgBlWA9NdcGr
+Y3E5YftYJ+kciNRttzN4Aon4VuQIASp5WLNTb9eVtDSvOR3NyroT1kHkChL2m3DB
+6/GBQRpSDV9+3ts876MBexwimmMqnLjlY7slkjkUefWkBxUTnF9kVW92WRp6dgtM
+jDfREfd3L7xV7FU/2Tp9XITsPPlwhs3h2OanihTZQbKcL99n5IQ=
+=58mV
+-----END PGP SIGNATURE-----

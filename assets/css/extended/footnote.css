@@ -1,0 +1,15 @@
+.footnotes {
+    font-size: .85em;
+    color: var(--secondary);
+}
+
+.footnote-backref {
+    font-size: .85em;
+    box-shadow: none !important;
+}
+
+a.footnote-ref {
+    color: var(--secondary);
+    box-shadow: none;
+    padding: 2px;
+}
