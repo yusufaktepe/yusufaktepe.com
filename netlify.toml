@@ -1,0 +1,25 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[context.production.environment]
+  HUGO_VERSION = "0.92.2"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+  TZ = "Europe/Istanbul"
+
+[[redirects]]
+  from = "https://yusufaktepe.netlify.app"
+  to = "https://yusufaktepe.com"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*.pdf"
+  [headers.values]
+    Content-Security-Policy = "default-src 'none'; base-uri 'self'; form-action 'none'; img-src 'self'; script-src 'self'; style-src 'unsafe-inline'; font-src 'self'; worker-src 'self'; object-src 'unsafe-inline'; media-src 'self'; frame-ancestors 'none'; manifest-src 'self'; connect-src 'self'"
+
+[[headers]]
+  for = "/*.(css|ico|png|js|webmanifest)"
+  [headers.values]
+    Cache-Control = "max-age=604800"
