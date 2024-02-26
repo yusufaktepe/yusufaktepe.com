@@ -1,0 +1,35 @@
+baseURL = "https://yusufaktepe.com"
+languageCode = "en"
+title = "yusufaktepe.com"
+theme = "hugo-theme-monochrome"
+defaultContentLanguage = "en"
+enableEmoji = true
+paginate = 5
+enableGitInfo = false
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+[minify]
+  disableXML = true
+  # minifyOutput = true
+
+[permalinks]
+  [permalinks.page]
+    posts = "/:sections/:year/:filename/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# [services]
+#   [services.disqus]
+#     shortname = "yusufaktepe"
+
+[frontmatter]
+  # See: https://gohugo.io/methods/page/gitinfo/#last-modified-date
+  lastmod = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
