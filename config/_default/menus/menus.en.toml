@@ -1,0 +1,22 @@
+[[navbar]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+[[navbar]]
+  identifier = "notes"
+  name = "Notes"
+  url = "/notes/"
+  weight = 2
+  [[navbar]]
+    identifier = "shell_notes"
+    name = "Shell"
+    url = "/notes/shell"
+    parent = "notes"
+    weight = 1
+  [[navbar]]
+    identifier = "vim_notes"
+    name = "{Neo}vim"
+    url = "/notes/vim"
+    parent = "notes"
+    weight = 2

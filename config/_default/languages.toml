@@ -1,0 +1,11 @@
+[en]
+contentDir = "content/en"
+languageName = "English"
+languageCode = "en"
+weight = 1
+
+# [tr]
+# contentDir = "content/tr"
+# languageName = "Türkçe"
+# languageCode = "tr"
+# weight = 2
