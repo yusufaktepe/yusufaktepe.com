@@ -94,6 +94,18 @@ cycle_array() {
 }
 ```
 
+## Get first/last `n` element of an array
+
+```sh
+printf '%s\n' "${ARRAY[@]:0:n}"
+printf '%s\n' "${ARRAY[@]: -n}"
+
+# Last n args POSIX
+set -- arg1 arg2 arg3
+shift "$(($#-n))"
+printf '%s\n' "${@}"
+```
+
 ## `head` and `tail` with bash
 
 ```sh
