@@ -1,3 +1,4 @@
+{{ if and (eq .Kind "page") (ne .Params.comments false) }}
 <script src="https://giscus.app/client.js"
         data-repo="yusufaktepe/yusufaktepe.com"
         data-repo-id="R_kgDOG3eTXQ"
@@ -14,3 +15,4 @@
         crossorigin="anonymous"
         async>
 </script>
+{{ end }}

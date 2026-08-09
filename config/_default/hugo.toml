@@ -1,14 +1,12 @@
 baseURL = "https://yusufaktepe.com"
-languageCode = "en"
+locale = "en"
 title = "yusufaktepe.com"
 theme = "hugo-theme-monochrome"
 defaultContentLanguage = "en"
 enableEmoji = true
-paginate = 5
-enableGitInfo = false
+enableGitInfo = true
 disableHugoGeneratorInject = true
 enableRobotsTXT = true
-enableInlineShortcodes = true
 
 [minify]
   disableXML = true
@@ -16,7 +14,13 @@ enableInlineShortcodes = true
 
 [permalinks]
   [permalinks.page]
-    posts = "/:sections/:year/:filename/"
+    posts = "/:sections/:year/:contentbasename/"
+
+[security]
+    enableInlineShortcodes = true
+
+[pagination]
+pagerSize = 5
 
 [taxonomies]
 category = "categories"

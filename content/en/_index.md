@@ -15,8 +15,6 @@ aliases = ["/about"]
 {{< icon vendor="simple" name="gnuprivacyguard" link="https://yusufaktepe.com/pgp_key.asc" >}}
 {{< icon vendor="simple" name="telegram" link="https://t.me/yusufaktepe" >}}
 {{< icon vendor="simple" name="github" link="https://github.com/yusufaktepe" >}}
-{{< icon vendor="simple" name="bitcoin" link="/img/qr_btc.png" >}}
-{{< icon vendor="simple" name="monero" link="/img/qr_xmr.png" >}}
 {{< icon vendor="simple" name="rss" link="index.xml" >}}
 {{< /icon-group >}}
 
