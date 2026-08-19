@@ -1,18 +1,39 @@
 {{ if and (eq .Kind "page") (ne .Params.comments false) }}
-<script src="https://giscus.app/client.js"
-        data-repo="yusufaktepe/yusufaktepe.com"
-        data-repo-id="R_kgDOG3eTXQ"
-        data-category="Comments"
-        data-category-id="DIC_kwDOG3eTXc4CBSWJ"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark_dimmed"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+<div id="giscus"></div>
+
+<script>
+function loadGiscus() {
+    const container = document.getElementById("giscus");
+
+    if (!container)
+        return;
+
+    container.replaceChildren();
+
+    const script = document.createElement("script");
+
+    script.src = "https://giscus.app/client.js";
+    script.dataset.repo = "yusufaktepe/yusufaktepe.com";
+    script.dataset.repoId = "R_kgDOG3eTXQ";
+    script.dataset.category = "Comments";
+    script.dataset.categoryId = "DIC_kwDOG3eTXc4CBSWJ";
+    script.dataset.mapping = "pathname";
+    script.dataset.strict = "0";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme =
+        document.documentElement.dataset.theme === "dark"
+            ? "dark_dimmed"
+            : "light";
+    script.dataset.lang = "en";
+    script.dataset.loading = "lazy";
+    script.crossOrigin = "anonymous";
+    script.async = true;
+
+    container.appendChild(script);
+}
+
+loadGiscus();
 </script>
 {{ end }}
